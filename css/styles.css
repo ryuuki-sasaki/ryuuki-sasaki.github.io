@@ -11105,67 +11105,35 @@ footer.footer .social-link:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-.introduction-item {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  max-width: 530px;
-  margin: auto auto 1rem;
+.instructions .container {
+  max-width: 700px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
-.introduction-item .caption {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
+.instructions .title {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: lightgray;
 }
-.introduction-item .caption .caption-content {
-  color: #fff;
-  margin: auto 2rem 2rem;
+.instructions .image {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.introduction-item .caption .caption-content h2, .introduction-item .caption .caption-content .h2 {
-  font-size: 0.8rem;
-  text-transform: uppercase;
+.instructions .image img {
+  max-width: 600px;
 }
-.introduction-item .caption .caption-content p {
-  font-weight: 300;
-  font-size: 1.2rem;
+.instructions .hosoku {
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-@media (min-width: 992px) {
-  .introduction-item {
-    max-width: none;
-    margin: 0;
-  }
-  .introduction-item .caption {
-    transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, background-color 0.7s;
-    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(0px);
-            clip-path: inset(0px);
-  }
-  .introduction-item .caption .caption-content {
-    transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
-  }
-  .introduction-item img {
-    transition: -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-            clip-path: inset(-1px);
-  }
-  .introduction-item:hover img {
-    -webkit-clip-path: inset(2rem);
-            clip-path: inset(2rem);
-  }
-  .introduction-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-            clip-path: inset(2rem);
+.instructions font:hover {
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .instructions .image img {
+    max-width: 500px;
   }
 }

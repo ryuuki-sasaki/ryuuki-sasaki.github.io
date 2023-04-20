@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Ryuuki Sasaki Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <!-- Devicon-->
+        <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" rel="stylesheet" />
+    </head>
+    <body class="instructions">
+        <div class="container">
+            <h1 class="title">Login to Task Manager</h1>
+            <div class="image"><img src="../assets/img/TaskManagerSignin.png" alt="TaskManagerSignin" /></div>
+            <h5>アカウントが存在する場合</h5>
+            <p>1. Email Addressにメールアドレスを入力する</p>
+            <p>2. Passwordにパスワードを入力する</p>
+            <p>3. Sign Inボタンを押す</p>
+            <h5>アカウントが存在しない場合</h5>
+            <p>
+                1.
+                <a href="#Create an account">Create an account</a>
+                を押す
+            </p>
+            <a name="Create an account"><h1 class="title">Create an account</h1></a>
+            <div class="image"><img src="../assets/img/TaskManagerCreateAccount.png" alt="TaskManagerCreateAccount" /></div>
+            <p>1. Email Addressに名前を入力する</p>
+            <p>2. Passwordにパスワードを入力する</p>
+            <p>3. CREATE ボタンを押す</p>
+            <h1 class="title">Task Managerの操作</h1>
+            <div class="image"><img src="../assets/img/TaskManagerHome.png" alt="TaskManagerHome" /></div>
+            <h5>Taskの絞り込み</h5>
+            <p>
+                ① Statusプルダウンメニューから絞り込みたい
+                <font title="ステータスOpenは実行中。Closeは完了。Pendingは保留中。Waivedは断念を表す" color="blue"><a href="#hosoku">ステータス</a></font>
+                を選択する
+            </p>
+            <p>
+                ② Projectプルダウンメニューから絞り込みたいプロジェクトを選択する(検索結果には、プロジェクトに属していないタスクと選択したプロジェクトに属するタスクを表示する)
+                <br />
+                該当プロジェクトがない場合、③ +ボタンを押すと新しいプロジェクトを作成できる
+            </p>
+            <div class="image"><img src="../assets/img/TaskManagerAddProject.png" alt="TaskManagerAddProject" /></div>
+            <p>④ Searchボタンを押す</p>
+            <p>⑤ 編集したいタスクを選択する</p>
+            <h5>Taskの追加</h5>
+            <p>⑥ 追加したいタスクのタイトルを入力してEnterを押す</p>
+            <h5>Taskの編集</h5>
+            <p>編集したいタスクを選択する</p>
+            <p>⑦ SetTimerでタスクの実行時間を設定する。(▶︎ボタンを押すとタイマーがスタートする)</p>
+            <p>
+                ⑧ Statusプルダウンメニューからタスクの
+                <font title="ステータスOpenは実行中。Closeは完了。Pendingは保留中。Waivedは断念を表す" color="blue"><a href="#hosoku">ステータス</a></font>
+                変更する
+            </p>
+            <p>⑨ Projectプルダウンメニューからタスクのプロジェクトを変更する</p>
+            <p>⑩ 下の入力フォームでDeadLineを設定する</p>
+            <p>⑪ DeadLineのタスクの開始・終了期限を設定する</p>
+            <p>⑫ ProgressRateでタスクの進捗率を設定する</p>
+            <p>⑬ Taskの内容を入力する</p>
+            <p>⑭ Updateボタンを押してタスクを更新する</p>
+            <a name="hosoku">
+                <div class="hosoku"></div>
+                <p>
+                    <strong>ステータス:</strong>
+                    Openは実行中、Closeは完了、Pendingは保留中、Waivedは断念を表す
+                </p>
+            </a>
+        </div>
+    </body>
+</html>
