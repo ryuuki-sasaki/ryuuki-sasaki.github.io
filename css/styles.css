@@ -11062,6 +11062,9 @@ footer.footer .social-link:hover {
   font-weight: 300;
   font-size: 1.2rem;
 }
+.portfolio-item img {
+  max-height: 400px;
+}
 .portfolio-item ul {
   list-style: none;
   margin: auto;
@@ -11091,7 +11094,6 @@ footer.footer .social-link:hover {
     transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
             clip-path: inset(-1px);
-    max-height: 500px;
   }
 }
 
