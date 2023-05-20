@@ -11091,6 +11091,7 @@ footer.footer .social-link:hover {
     transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
             clip-path: inset(-1px);
+    max-height: 500px;
   }
 }
 
